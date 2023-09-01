@@ -1,0 +1,9 @@
+.header_text_container {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transition: translateX(-50%);
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}

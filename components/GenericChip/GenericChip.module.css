@@ -1,0 +1,12 @@
+.chip__container {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.chip_with_label {
+  display: flex;
+  align-items: center;
+}
+.chip_with_label > strong {
+  padding-right: 8px;
+}
