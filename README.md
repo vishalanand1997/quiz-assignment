@@ -22,7 +22,7 @@ npm install or yarn install
 ```bash
 npm run dev or yarn dev
 ```
-## [GitHub Repository Link](https://github.com/vishalanand1997/quiz-assignment.git)
+## [GitHub Repository Link](https://github.com/vishalanand1997/quiz-assignment-vishal-anand.git)
 ## [Quiz demo link ](https://quiz-assignment-tan.vercel.app/)
 ## Which library I have used in this application
 
