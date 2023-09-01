@@ -60,6 +60,7 @@ maintain the record of Which questions the user has visited or not and quiz atte
 Added the loader when the API response is pending
 
 Added the chip for displaying the difficulty level of each question, chip color changes according to the difficulty level of the question 
+
 **Report screen**
 
 After the submission of the quiz or when the timer ends, users will redirected to the report page.
