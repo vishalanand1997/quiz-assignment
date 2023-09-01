@@ -23,7 +23,7 @@ npm install or yarn install
 npm run dev or yarn dev
 ```
 ## [GitHub Repository Link](https://github.com/vishalanand1997/quiz-assignment.git)
-
+## [Quiz demo link ](https://quiz-assignment-tan.vercel.app/)
 ## Which library I have used in this application
 
 => React framework [NextJs]
