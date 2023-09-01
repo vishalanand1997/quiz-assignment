@@ -1,38 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Node Version
+[v18.12.1]
 
-## Getting Started
+## NPM Version
+[8.19.2]
 
-First, run the development server:
+## Checkout to the main git branch
 
-```bash
-npm run dev
+## Steps to run the quiz assignment
+
+`npm install`
 # or
-yarn dev
+`yarn install`
+
+## Step to run the development server:
+
+`npm run dev`
 # or
-pnpm dev
-```
+`yarn dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## GitHub Repository Link:-
+[https://github.com/vishalanand1997/quiz-assignment.git]
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# which library I have used in this application
+## React framework [NextJs]
+## UI library [MaterialUI]
+## form validation [reactHookForm]
+## State Management [redux]
+## Remote data fetching [swr]
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Added typescript support in everywhere in code and followed their typescript rules
+## Created the reusable component support
+## Manage the reusablity support to the code
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Which functionalities we can see in this application
 
-## Learn More
+## Login screen
+# login with email screen(validation), after submit it will redirect to the all question screen in which user can select the question then sepecific question will display in the screen
 
-To learn more about Next.js, take a look at the following resources:
+## Quiz screen
+# 30 min timer counter to the top right, autosubmit the quiz when time reaches to zero or we can submit the quiz in the last question submit quiz button only displays in the last question else it will not show
+# implemented the pagination to the quiz question card in which we can select the specific question or navigate the questions
+# maintain the record of Which questions the user has visited or not and quiz attempted answers in redux state.
+# Added the loader when api response is pending
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Report
+# After the submit the quiz or when the timer ends, users will redirected to the report page.
+# Report screen will show the question, user attempted answer (Added Indictor color Green or red:- green mean correct answer and red mean incorrect answer for compare), correct answer, is user visited the question(Yes or No), these data will display in tabular form 
