@@ -1,7 +1,7 @@
 .chip__container {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  right: 20px;
+  top: 20px;
 }
 .chip_with_label {
   display: flex;
